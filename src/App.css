@@ -5,3 +5,8 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* styles.css or a similar stylesheet if needed */
+.hidden-navbar {
+  transform: translateY(-120%);
+}

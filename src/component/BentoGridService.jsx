@@ -21,7 +21,7 @@ export function BentoGridThirdDemo() {
         ease: "easeInOut",
       }}
     >
-      <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem] z-0">
+      <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[20rem] z-0 text-[20px] mb-[200px]">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
