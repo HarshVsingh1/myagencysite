@@ -4,6 +4,7 @@ import Services from './component/Services';
 import { NavbarDemo } from './component/Navbar';
 import { CiLight } from "react-icons/ci";
 import { MdOutlineDarkMode } from "react-icons/md";
+import { GoogleGeminiEffectDemo } from './component/MidPoint';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -32,6 +33,7 @@ function App() {
       </button>
       <Hero />
       <Services/>
+      <GoogleGeminiEffectDemo/>
     </div>
     </>
   );
