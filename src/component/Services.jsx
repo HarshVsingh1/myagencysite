@@ -1,6 +1,6 @@
 // Service.jsx
 import React from 'react';
-import { LampContainer } from './ui/lamp';
+import { LampContainer } from './ui/lamp1';
 import { motion } from 'framer-motion';
 import { BentoGridThirdDemo } from './BentoGridService';
 
