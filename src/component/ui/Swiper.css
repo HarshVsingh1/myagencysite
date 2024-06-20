@@ -1,0 +1,63 @@
+/* Swiper.css */
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #111; /* Darker background for better contrast */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff; /* White text for better contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 40vw; /* Set slide width relative to viewport width */
+  height: 60vh; /* Set slide height relative to viewport height */
+  transition: filter 0.5s ease-out, transform 0.5s ease-out; /* Slower and smoother transition for blur and size effect */
+  filter: blur(4px); /* Default blur for non-active slides */
+}
+
+.swiper-slide-active {
+  filter: none; /* No blur for the active (centered) slide */
+  transform: scale(1.8); /* Increase size to 1.8x for the active slide */
+  transition: filter 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition for active slide */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-out; /* Smooth transition for image scaling */
+}
+
+/* Additional styling for Swiper container */
+.swiper-container {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+.swiper-pagination-bullet {
+  background: #fff; /* White bullets for pagination */
+}
+
+.swiper-pagination-bullet-active {
+  background: #007aff; /* Highlight color for active pagination bullet */
+}

@@ -45,7 +45,7 @@ function Hero() {
 
 
 export function FlipWordsDemo() {
-  const words = ["Ui/Ux", "Mern Stack Website", "React Native Apps", "Futter App"];
+  const words = ["Ui/Ux", "Mern-Stack-Website", "Poster_Design", "Graphic_Design","Game_Development"];
  
   return (
     <div className="h-[10rem] flex flex-col justify-center items-center px-4 relative">
